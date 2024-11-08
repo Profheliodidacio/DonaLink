@@ -1,0 +1,46 @@
+
+# streamlit config set server.port 8502
+
+# config.toml
+
+[app]
+name = "DonaLink"
+version = "1.0.0"
+description = "Plataforma para facilitar doações e engajamento com causas sociais"
+
+[api]
+# URL da API que será usada para integração (exemplo com um chatbot)
+base_url = "https://api.donalink.org"
+chatbot_endpoint = "/chatbot"
+
+[donations]
+# Configurações para a área de doações
+currency = "BRL"  # Defina a moeda usada nas doações
+minimum_donation = 10.0  # Valor mínimo para doação
+maximum_donation = 5000.0  # Valor máximo para doação
+
+[database]
+# Configurações de conexão com banco de dados
+host = "localhost"
+port = 5432
+user = "admin"
+password = "senha_segura"
+database_name = "donalink_db"
+
+[theme]
+# Configurações de tema do aplicativo
+primary_color = "#2E8B57"  # Cor principal
+secondary_color = "#FF6347"  # Cor secundária
+font = "Arial"
+
+[authentication]
+# Configurações para autenticação
+enable_login = true
+login_redirect_url = "/home"
+max_login_attempts = 5
+
+[contact]
+# Informações de contato
+email = "contato@donalink.org"
+phone = "+55 11 98765-4321"
+

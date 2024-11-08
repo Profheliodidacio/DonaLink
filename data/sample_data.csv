@@ -1,0 +1,11 @@
+user_id,user_name,cause_id,cause_name,donation_amount,donation_date
+1,João Silva,101,Educação para Todos,50.00,2024-10-15
+2,Maria Santos,102,Saúde e Bem-Estar,75.00,2024-10-20
+3,Carlos Oliveira,103,Alimentação Solidária,30.00,2024-10-25
+4,Ana Pereira,101,Educação para Todos,100.00,2024-11-01
+5,Luiz Costa,104,Habitação Digna,60.00,2024-11-03
+6,Sara Lima,102,Saúde e Bem-Estar,20.00,2024-11-05
+7,Paulo Sousa,103,Alimentação Solidária,40.00,2024-11-06
+8,Carla Nunes,104,Habitação Digna,25.00,2024-11-07
+9,Fernando Rocha,101,Educação para Todos,55.00,2024-11-07
+10,Laura Mendes,102,Saúde e Bem-Estar,90.00,2024-11-08

@@ -1,0 +1,41 @@
+# Ignora arquivos de compilação Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignora arquivos de configuração do ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Ignora arquivos de configuração do editor de código (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignora arquivos gerados pelo Streamlit
+.streamlit/
+
+# Ignora arquivos de logs
+*.log
+
+# Ignora bancos de dados SQLite
+*.db
+*.sqlite
+
+# Ignora arquivos de configuração do sistema operacional
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Ignora o arquivo de configuração de ambiente (exemplo)
+config.toml
+
+# Ignora o diretório de testes temporários
+/tests/tmp/
+
+# Ignora arquivos de backup criados por editores de texto
+*~
+*.bak
+*.swp

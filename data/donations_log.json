@@ -1,0 +1,56 @@
+[
+    {
+        "donation_id": 1,
+        "user": {
+            "user_id": 1,
+            "user_name": "João Silva"
+        },
+        "cause": {
+            "cause_id": 101,
+            "cause_name": "Educação para Todos"
+        },
+        "donation_details": {
+            "amount": 50.00,
+            "currency": "BRL",
+            "date": "2024-10-15",
+            "status": "confirmed",
+            "message": "Espero que essa doação ajude a levar mais educação às crianças!"
+        }
+    },
+    {
+        "donation_id": 2,
+        "user": {
+            "user_id": 2,
+            "user_name": "Maria Santos"
+        },
+        "cause": {
+            "cause_id": 102,
+            "cause_name": "Saúde e Bem-Estar"
+        },
+        "donation_details": {
+            "amount": 75.00,
+            "currency": "BRL",
+            "date": "2024-10-20",
+            "status": "pending",
+            "message": "Saúde é um direito de todos, faço essa doação com carinho."
+        }
+    },
+    {
+        "donation_id": 3,
+        "user": {
+            "user_id": 3,
+            "user_name": "Carlos Oliveira"
+        },
+        "cause": {
+            "cause_id": 103,
+            "cause_name": "Alimentação Solidária"
+        },
+        "donation_details": {
+            "amount": 30.00,
+            "currency": "BRL",
+            "date": "2024-10-25",
+            "status": "confirmed",
+            "message": "Alimentação é essencial. Vamos juntos combater a fome."
+        }
+    }
+]
