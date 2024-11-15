@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show():
+def login_show():
     st.title("Tela de Login")
 
     username = st.text_input("Nome de usuário")

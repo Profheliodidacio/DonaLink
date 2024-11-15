@@ -1,19 +1,21 @@
 import streamlit as st
-from src.screens import login_screen, info_screen, mental_health_screen
+from src.routes.router import r_show
 
 def main():
-    st.title("Bem-vindo ao DonaLink")
+    # Inicializa o estado do menu na primeira execução
+    if "menu_choice" not in st.session_state:
+        st.session_state["menu_choice"] = "Principal"  # Tela padrão inicial
 
-    # Exemplo de navegação entre telas
-    menu = ["Login", "Dicas", "Saúde Mental"]
-    choice = st.sidebar.selectbox("Escolha uma opção", menu)
-
-    if choice == "Login":
-        login_screen.show()
-    elif choice == "Dicas":
-        info_screen.show()
-    elif choice == "Saúde Mental":
-        mental_health_screen.show()
+    # Renderiza o roteador que gerencia a navegação
+    r_show()
 
 if __name__ == "__main__":
+    # Configuração inicial do Streamlit
+    st.set_page_config(
+        page_title="DonaLink - Doe com Propósito",
+        page_icon=":heart:",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+    # Inicia o aplicativo
     main()

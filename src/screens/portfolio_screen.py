@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show():
+def portfolio_show():
     st.title("Portfólio de Doações")
     
     st.write("Veja o impacto das suas doações e como elas estão ajudando a transformar vidas.")

@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show():
+def about_show():
     st.title("Sobre o DonaLink")
     
     st.header("Nossa Missão")

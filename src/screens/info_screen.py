@@ -3,7 +3,7 @@
 import streamlit as st
 
 # Função para exibir a tela de informações e dicas
-def show_info_screen():
+def info_show():
     st.header("Informações e Dicas sobre Doações")
     
     st.subheader("Como o DonaLink Funciona?")
