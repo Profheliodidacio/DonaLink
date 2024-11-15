@@ -5,7 +5,7 @@ from screens.login_screen import show_login_screen
 from screens.info_screen import show_info_screen
 from screens.about_screen import show_about_screen
 from screens.portfolio_screen import show_portfolio_screen
-from config.settingssettings import APP_NAME, APP_VERSION
+from config.settings import APP_NAME, APP_VERSION
 
 # Função para definir o layout e a navegação do app
 def main():
@@ -22,7 +22,7 @@ def main():
     elif choice == "Login":
         show_login_screen()
     elif choice == "Informações":
-        show_info_tips_screen()
+        show_info_screen()
     elif choice == "Sobre":
         show_about_screen()
     elif choice == "Portfólio":
